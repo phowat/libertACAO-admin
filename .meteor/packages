@@ -24,3 +24,7 @@ accounts-ui
 tap:i18n-ui
 ejson
 accounts-facebook
+meteorhacks:npm
+
+
+npm-container
