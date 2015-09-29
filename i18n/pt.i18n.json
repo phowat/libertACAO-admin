@@ -1,0 +1,10 @@
+{
+    "email": "Email",
+    "password": "Senha",
+    "remember-me": "Lembrar de mim",
+    "log-in": "Entrar",
+    "email-required": "O campo Email é obrigatório",
+    "password-required": "O campo Senha é obrigatório",
+    "create-account": "Criar usuário",
+    "confirm-password": "Confirme a senha"
+}
