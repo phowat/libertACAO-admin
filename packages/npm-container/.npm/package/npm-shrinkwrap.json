@@ -1,0 +1,20 @@
+{
+  "dependencies": {
+    "parse": {
+      "version": "1.6.4",
+      "dependencies": {
+        "babel-runtime": {
+          "version": "5.8.25",
+          "dependencies": {
+            "core-js": {
+              "version": "1.2.0"
+            }
+          }
+        },
+        "xmlhttprequest": {
+          "version": "1.7.0"
+        }
+      }
+    }
+  }
+}
