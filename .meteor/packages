@@ -20,7 +20,6 @@ iron:router
 twbs:bootstrap
 tap:i18n
 accounts-password
-accounts-ui
 tap:i18n-ui
 ejson
 accounts-facebook
@@ -29,3 +28,4 @@ meteorhacks:npm
 
 npm-container
 random
+ian:accounts-ui-bootstrap-3

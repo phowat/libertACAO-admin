@@ -1,18 +1,16 @@
 <template name="appBody">
   <body>
     <!-- Fixed navbar -->
-<nav class="navbar navbar-default">
-  <div class="container">
-    <div class="navbar-header">
-      <a class="navbar-brand" href="{{pathFor route="home"}}">LibertAÇÃO</a>
-    </div>
-      <ul class="nav navbar-nav navbar-right">
-        <li> {{> loginButtons}} </li>
-        <li> {{> i18n_dropdown_semantic}} </li>
-      </ul>
-    </div>
-</nav>
-
+    <div class="header clearfix">
+        <nav>
+          <ul class="nav nav-pills pull-right">
+            <li role="presentation"><a href="#">Home</a></li>
+            <li role="presentation"><a href="#">{{> loginButtons}}</a></li>
+            <li role="presentation"><a href="#">{{> i18n_dropdown_semantic}}</a></li>
+          </ul>
+        </nav>
+        <h3 class="text-muted">{{_ "admin-panel"}}</h3>
+      </div>
 <!-- Begin page content -->
 <div class="container">
       {{> yield}}
