@@ -7,7 +7,7 @@
           "version": "5.8.25",
           "dependencies": {
             "core-js": {
-              "version": "1.2.0"
+              "version": "1.2.1"
             }
           }
         },
